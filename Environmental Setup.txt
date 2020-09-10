@@ -1,0 +1,35 @@
+1. Chocoletey setup
+
+Run Window Powershell(Admin),
+also run the command
+: Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+2. Node.js setup
+
+choco install nodejs-lts
+node --version
+npm --version
+
+3. python2 setup
+choco install -y python2
+
+4. jdk setup
+choco install -y jdk8
+
+5. React Native CLI setup
+npm install -g react-native-cli
+
+6. Android Studio setup
+
+Android SDK Platform 28
+Intel x86 Atom System Image
+Google APIs Intel x86 Atom System Image
+Google APIs Intel x86 Atom_64 System Image
+
+7. Environment variable setup
+
+User Variable
+ANDROID_HOME
+C:\Users\{USER_NAME}\AppData\Local\Android\Sdk
+User Path
+C:\Users\{USER_NAME}\AppData\Local\Android\Sdk\platform-tools
