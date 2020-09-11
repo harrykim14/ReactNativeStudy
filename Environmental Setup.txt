@@ -33,3 +33,11 @@ ANDROID_HOME
 C:\Users\{USER_NAME}\AppData\Local\Android\Sdk
 User Path
 C:\Users\{USER_NAME}\AppData\Local\Android\Sdk\platform-tools
+
+---------------------------------------------------------------------
+
+<< Conter App >> 
+react-native init Counter 
+npm install --save styled-components
+npm install --save styled-components
+npm install --save-dev typescript @types/react @types/react-native @types/styled-components babel-plugin-root-import
