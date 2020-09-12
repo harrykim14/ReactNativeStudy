@@ -45,3 +45,12 @@ npm install --save-dev typescript @types/react @types/react-native @types/styled
 
 error code : PSSecurityException -> ExecutionPolicy @Powershell
                                  -> Set-ExecutionPolicy UNRESTRICTED @Powershell (administration)
+
+----------------------------------------------------------------------
+
+<< TodoList App >>
+react-native init TodoList
+npm install --save styled-components
+npm install --save-dev typescript @types/react @types/react-native @types/styled-components babel-plugin-root-import
+npm install --save @react-native-community/async-storage
+react-native link @react-native-community/async-storage
