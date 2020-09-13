@@ -8,9 +8,11 @@ background-color: #EEE;`;
 
 const App = () => {
   return (
+    <TodoListContextProvider>
     <Container>
       <Counter title="This is a Counter App" initValue={5}/>
     </Container>
+    </TodoListContextProvider>
   )
 }
 
