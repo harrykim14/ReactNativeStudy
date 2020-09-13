@@ -10,7 +10,11 @@ justify-content: flex-end;`;
 const ButtonContainer = Styled.TouchableOpacity`
 box-shadow: 4px 4px 9px #999`;
 
-const Icon = Styled.Image``;
+const Icon = Styled.Image`
+margin-bottom: 50px;
+width: 50px;
+height: 50px;
+`;
 
 interface Props{
     onPress?: () => void;

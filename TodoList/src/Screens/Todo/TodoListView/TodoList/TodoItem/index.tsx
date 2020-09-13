@@ -4,8 +4,8 @@ import Styled from'styled-components/native';
 const Container = Styled.View`
 flex-direction: row;
 background-color: #FFF;
-margin:4px 16px;
-padding : 8px 16px;
+margin:6px 16px;
+padding : 12px 16px;
 border-radius: 8px;
 align-items: center;`
 
