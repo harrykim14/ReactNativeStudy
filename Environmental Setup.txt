@@ -54,3 +54,23 @@ npm install --save styled-components
 npm install --save-dev typescript @types/react @types/react-native @types/styled-components babel-plugin-root-import
 npm install --save @react-native-community/async-storage
 react-native link @react-native-community/async-storage
+
+----------------------------------------------------------------------
+
+<< Weather App >>
+react-native init WeatherApp
+npm install --save styled-components
+npm install --save-dev typescript @types/react @types/react-native @types/styled-components babel-plugin-root-import
+npm install --save react-native-geolocation-service 
+
+----------------------------------------------------------------------
+
+<< Movie App >>
+
+react-native init MovieApp
+npm install --save styled-components
+npm install --save-dev typescript @types/react @types/react-native @types/styled-components babel-plugin-root-import
+npm install --save-dev "@bam.tech/react-native-make"
+npm install --save react-native-splash-screen
+react-native set-icon --path ./src/Assets/Images/app_icon.png
+react-native set-splash --path ./src/Assets/Images/app_splash.png --resize cover
