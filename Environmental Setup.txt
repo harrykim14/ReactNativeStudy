@@ -74,3 +74,9 @@ npm install --save-dev "@bam.tech/react-native-make"
 npm install --save react-native-splash-screen
 react-native set-icon --path ./src/Assets/Images/app_icon.png
 react-native set-splash --path ./src/Assets/Images/app_splash.png --resize cover
+npm install --save @react-native-community/async-storage
+react-native link @react-native-community/async-storage
+npm install --save @react-navigation/native
+npm install --save react-native-reanimated react-native-gesture-handler
+npm install --save react-native-screens react-native-safe-area-context @react-native-community/masked-view
+npm install --save @react-navigation/stack
