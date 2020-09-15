@@ -2,6 +2,8 @@ import React, {useContext} from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 
+// 내비게이션 컨테이너는 내비게이션을 다루기 위한 State, 링크 등을 관리함
+// 항상 마지막은 NavigationContainer로 감싸서 제공할 것
 
 import {UserContext} from '~/Context/User';
 import Loading from '~/Screens/Loading';

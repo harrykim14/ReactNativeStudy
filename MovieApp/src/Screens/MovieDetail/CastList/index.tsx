@@ -12,7 +12,7 @@ const CastContainer = Styled.View`
 padding: 0px 4px;`;
 const CastImage = Styled.Image``;
 const LabelName = Styled.Text`
-postion:absolute;
+position:absolute;
 bottom: 0;
 width: 100%;
 padding: 4px 2px;
