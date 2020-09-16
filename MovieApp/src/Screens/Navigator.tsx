@@ -7,12 +7,13 @@ import {createStackNavigator} from '@react-navigation/stack';
 
 import {UserContext} from '~/Context/User';
 import Loading from '~/Screens/Loading';
-
 import Login from '~/Screens/Login';
 import MovieHome from '~/Screens/MovieHome';
 import MovieDetail from '~/Screens/MovieDetail';
+// 내비게이터에서 필요한 화면을 전부 정의
 
 const Stack = createStackNavigator();
+// StackNavigator 인스턴스 생성
 
 const LoginNavigator = () => {
     return (
@@ -32,6 +33,7 @@ const LoginNavigator = () => {
         </Stack.Navigator>
     )
 }
+// 로그인 내비게이터에선 StackNavigator를 사용하여 Login 컴포넌트를 불러옴
 
 const MovieNavigator = () => {
     return (
@@ -70,6 +72,7 @@ const MovieNavigator = () => {
         </Stack.Navigator>
     )
 }
+// 무비 내비게이터에선 StackNavigator를 사용하여 MovieHome, MovieDetail화면을 쌓아 보여줌
 
 export default () => {
     const {isLoading, userInfo} = useContext<IUserContext>(UserContext);
@@ -85,3 +88,4 @@ export default () => {
         </NavigationContainer>
     )
 }
+// Export 하는 과정에서 isLodaing이 true이고 userInfo가 undefined가 아니라면 MovieNavigator를, 아니면 LoginNavigator를 불러오도록 설정
