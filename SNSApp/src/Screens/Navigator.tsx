@@ -93,7 +93,7 @@ const ProfileTab = () => {
     )
 }
 
-const MainTabs =() =>{
+const MainTabs = () =>{
     return (
         <BottomTab.Navigator
         tabBarOptions={{showLabel: false}}>
