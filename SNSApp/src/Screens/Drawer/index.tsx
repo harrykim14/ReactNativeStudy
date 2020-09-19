@@ -54,7 +54,7 @@ const Drawer = ({props}: Props) => {
             </Button>
             <Button>
                 <ButtonContainer>
-                    <Icon source={require('~/Assets/Images/ic_favorit_outline.png')}/>
+                    <Icon source={require('~/Assets/Images/Tabs/ic_favorite_outline.png')}/>
                     <Label>팔로워</Label>
                 </ButtonContainer>
             </Button>
@@ -65,7 +65,7 @@ const Drawer = ({props}: Props) => {
                 }}>
                     <ButtonContainer>
                         <Icon
-                        source={require('~/Assets/Images/Tabs/icprofile_outline.png')}/>
+                        source={require('~/Assets/Images/Tabs/ic_profile_outline.png')}/>
                         <Title>로그아웃</Title>
                     </ButtonContainer>
                 </Button>

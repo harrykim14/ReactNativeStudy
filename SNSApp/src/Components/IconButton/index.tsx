@@ -22,14 +22,14 @@ interface Props {
 
 const IconButton = ({ iconName, style, onPress }: Props) =>{
     const imageSource = {
-        camera: require('~/Asset/Images/ic_camera.png'),
-        live: require('~/Asset/Images/ic_list.png'),
-        send: require('~/Asset/Images/ic_send.png'),
-        dotMenu: require('~/Asset/Images/ic_dot_menu.png'),
-        favorite: require('~/Asset/Images/Tabs/ic_favorite_outline.png'),
-        comment: require('~/Asset/Images/ic_comment.png'),
-        bookmark: require('~/Asset/Images/ic_bookmark.png'),
-        menu: require('~/Asset/Images/ic_menu.png'),
+        camera: require('~/Assets/Images/ic_camera.png'),
+        live: require('~/Assets/Images/ic_live.png'),
+        send: require('~/Assets/Images/ic_send.png'),
+        dotMenu: require('~/Assets/Images/ic_dot_menu.png'),
+        favorite: require('~/Assets/Images/Tabs/ic_favorite_outline.png'),
+        comment: require('~/Assets/Images/ic_comment.png'),
+        bookmark: require('~/Assets/Images/ic_bookmark.png'),
+        menu: require('~/Assets/Images/ic_menu.png'),
     }
 
     return (
