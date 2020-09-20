@@ -6,7 +6,7 @@ import Loading from '~/Components/Loading';
 
 interface Props {
     cache?: boolean;
-    children: JSX.Element|Array<JSX.Element>
+    children: JSX.Element | Array<JSX.Element>
 }
 
 interface IRandomUserData {
@@ -72,7 +72,7 @@ const RandomUserDataProvider = ({cache, children}: Props) =>{
 
         try {
             const response = await fetch(
-                'https://opinionated-quotes-api.gigalixirapp.com/v1/quotes?rand=t&=25',
+                'https://opinionated-quotes-api.gigalixirapp.com/v1/quotes?rand=t&n=25',
             );
             const data = await response.json();
             let text = [];

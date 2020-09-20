@@ -12,7 +12,7 @@ const defaultContext: IUserContext ={
 const UserContext = createContext(defaultContext);
 
 interface Props{
-    children : JSX.Element|Array<JSX.Element>;
+    children : JSX.Element | Array<JSX.Element>;
 }
 
 const UserContextProvider = ({children}:Props) => {
@@ -43,7 +43,7 @@ const UserContextProvider = ({children}:Props) => {
             }
             setIsLoading(true);
         })
-        .catch(()=>{
+        .catch(() => {
             setUserInfo(undefined);
             setIsLoading(true);
         })

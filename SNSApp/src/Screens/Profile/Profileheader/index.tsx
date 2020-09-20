@@ -14,7 +14,7 @@ border-radius: 100px;`;
 
 const ProfileContent = Styled.View`
 flex: 1;
-paddng: 16px;
+padding: 16px;
 justify-content: space-around;`;
 
 const LabelContainer = Styled.View`

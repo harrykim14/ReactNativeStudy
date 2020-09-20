@@ -31,7 +31,7 @@ margin-bottom: 16px;`;
 
 const Description = Styled.Text`
 text-align:center;
-margin-ottom: 16px;
+margin-bottom: 16px;
 color: #292929`;
 
 const TabContainer = Styled.View`
