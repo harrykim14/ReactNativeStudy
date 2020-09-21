@@ -74,6 +74,7 @@ const RandomUserDataProvider = ({cache, children}: Props) =>{
             const response = await fetch(
                 'https://opinionated-quotes-api.gigalixirapp.com/v1/quotes?rand=t&n=25',
             );
+            // quotes?rand=t&n=25라는 쿼리문이 불충분하여 로딩이 완료되지 않았음(9/21)
             const data = await response.json();
             let text = [];
             for (const index in data.quotes) {
