@@ -14,3 +14,15 @@ import Project from '~/Screens/Project';
 const Stack = createStackNavigator();
 const BottomTab = createBottomTabNavigator();
 const Drawer = createDrawerNavigator();
+
+const MyProfile = () => {
+    return(
+        <Stack.Navigator>
+            <Stack.Screen
+            name = "Profile"
+            component = {Profile}
+            options={{ title: 'Profile'}} />
+        </Stack.Navigator>
+    )
+}
+
