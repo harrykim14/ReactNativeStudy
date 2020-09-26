@@ -70,7 +70,7 @@ const MainPage = () => {
 
 
 export default () => {
-    const { isLoading } = useContext<ILoadingContext>()
+    const { isLoading } = useContext<ILoadingContext>(ILodingContext)
     if(isLoading === false) {
         return <Loading />
     }
