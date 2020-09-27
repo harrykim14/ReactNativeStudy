@@ -1,0 +1,3 @@
+interface ILoadingContext {
+    isLoading: boolean;
+}

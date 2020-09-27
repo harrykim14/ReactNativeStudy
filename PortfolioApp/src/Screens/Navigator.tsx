@@ -5,7 +5,8 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
-import Loading from '~/Components/Loading';
+import {LoadingContext} from '~/Context/Loading';
+import LoadingScreen from '~/Components/LoadingScreen';
 import PortfolioMain from '~/Components/PortfolioMain';
 import Profile from '~/Screens/Profile';
 import Project from '~/Screens/Project';
@@ -13,10 +14,6 @@ import Project from '~/Screens/Project';
 const Stack = createStackNavigator();
 const BottomTab = createBottomTabNavigator();
 const Drawer = createDrawerNavigator();
-
-interface ILoadingContext {
-    isLoading: boolean;
-}
 
 const MainPage = () => {
     return (
@@ -70,9 +67,12 @@ const MainPage = () => {
 
 
 export default () => {
-    const { isLoading } = useContext<ILoadingContext>(ILodingContext)
-    if(isLoading === false) {
-        return <Loading />
-    }
+    const { isLoading } = useContext<ILoadingContext>(LoadingContext);
+    
+    return (
+        <NavigationContainer>
+        {isLoading ? <LoadingScreen/> : <MainPage/>}
+        </NavigationContainer>
+    )
 
 }
