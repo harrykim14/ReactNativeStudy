@@ -6,8 +6,8 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 import {LoadingContext} from '~/Context/Loading';
-import LoadingScreen from '~/Components/LoadingScreen';
 import PortfolioMain from '~/Components/PortfolioMain';
+import Loading from '~/Screens/Loading';
 import Profile from '~/Screens/Profile';
 import Project from '~/Screens/Project';
 
@@ -71,7 +71,7 @@ export default () => {
     
     return (
         <NavigationContainer>
-        {isLoading ? <LoadingScreen/> : <MainPage/>}
+        {isLoading ? <MainPage/> : <Loading/>}
         </NavigationContainer>
     )
 
