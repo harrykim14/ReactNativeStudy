@@ -51,3 +51,5 @@ const ProfileHeader = ({image}:Props) =>{
         </Container>
     )
 }
+
+export default ProfileHeader;
