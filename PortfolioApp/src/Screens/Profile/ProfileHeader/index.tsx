@@ -40,14 +40,6 @@ const ProfileHeader = ({image}:Props) =>{
                 source={{uri: image}}
                 style= {{width: 150, height: 180}} />
             </ProfileImageContainer>
-            <ProfileContent>
-                <DiscriptionContainer>
-                    <ProfileItem>
-                        <DescriptionTitle>이름</DescriptionTitle>
-                        <DescriptionText>ㄱㅎㅊ</DescriptionText>
-                    </ProfileItem>
-                </DiscriptionContainer>
-            </ProfileContent>
         </Container>
     )
 }

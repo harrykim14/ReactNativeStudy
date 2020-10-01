@@ -1,0 +1,3 @@
+type ProfileTabParamList = {
+    Profile: undefined;
+}
