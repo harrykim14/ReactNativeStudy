@@ -10,24 +10,6 @@ padding: 16px;`;
 const ProfileImage = Styled.Image`
 border-radius: 5px;`;
 
-const ProfileContent = Styled.View`
-flex: 1;
-padding: 16px;
-justify-content: space-around;`;
-
-const DiscriptionContainer = Styled.View`
-flex-direction: row;`;
-
-const ProfileItem = Styled.View`
-flex: 1;
-align-items: center;`;
-
-const DescriptionTitle = Styled.Text`
-font-weight: 700;`;
-
-const DescriptionText = Styled.Text`
-font-weight: 300;`;
-
 interface Props {
     image: string;
 }
