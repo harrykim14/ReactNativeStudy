@@ -47,6 +47,14 @@ const Profile = ({navigation}:Props) => {
                     대학교에서는 생물학을 전공하였으며, 대학원에서는 뇌공학을 공부하였습니다. 건강문제로 대학원을 수료한 이후 더 넓은 세상을 바라보고자 개발자의 길을 택하였습니다. 첫 언어로 선택한 Java이후로 JavaScript에 흥미를 느껴 지금은 Node.js와 ReactJS, React-native등에 몰두하고 있습니다.
                 </ProfileDescriptionContext>
             </ProfileSubContainer>
+            <ProfileSubContainer>>
+                <ProfileDescriptionTitle>
+                    Skills
+                </ProfileDescriptionTitle>
+                <ProfileDescriptionContext>
+                    
+                </ProfileDescriptionContext>
+            </ProfileSubContainer>
         </ProfileContainer>
     )
 }
