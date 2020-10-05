@@ -48,22 +48,18 @@ const ProfileHeader = ({image, posts, follower, following} : Props) => {
             </ProfileImageContainer>
             <ProfileContent>
                 <LabelContainer>
-                    <ProfileContent>
-                        <LabelContainer>
-                            <ProfileItem>
-                                <LabelCount>{posts}</LabelCount>
-                                <LabelTitle>게시물</LabelTitle>
-                            </ProfileItem>
-                            <ProfileItem>
-                                <LabelCount>{follower}</LabelCount>
-                                <LabelTitle>팔로워</LabelTitle>
-                            </ProfileItem>
-                            <ProfileItem>
-                                <LabelCount>{following}</LabelCount>
-                                <LabelTitle>팔로잉</LabelTitle>
-                            </ProfileItem>
-                        </LabelContainer>
-                    </ProfileContent>
+                    <ProfileItem>
+                        <LabelCount>{posts}</LabelCount>
+                        <LabelTitle>게시물</LabelTitle>
+                    </ProfileItem>
+                    <ProfileItem>
+                        <LabelCount>{follower}</LabelCount>
+                        <LabelTitle>팔로워</LabelTitle>
+                    </ProfileItem>
+                    <ProfileItem>
+                        <LabelCount>{following}</LabelCount>
+                        <LabelTitle>팔로잉</LabelTitle>
+                    </ProfileItem>
                 </LabelContainer>
                 <Button
                 label="프로필 수정"
