@@ -32,7 +32,7 @@ const Profile = ({navigation}:Props) => {
         <ProfileContainer>
             <ProfileMainContainer>
                 <ProfileHeader
-                image = './assets/profileimage.jpg'
+                image = './Assets/profileimage.jpg'
                 />
                 <ProfileBody
                 name = "Harry Kim"
